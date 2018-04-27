@@ -1,3 +1,10 @@
+---
+layout: post
+title: TensorFlow 编译拍错
+date: 2018-04-27
+tags: [TensorFlow,开源,AI]
+---
+
 cuda sdk
 https://devtalk.nvidia.com/default/topic/750562/where-is-the-cuda-sdk-for-version-6-/
 Prior to cuda 5 there was a cuda "toolkit" which contained things like compilers and tools and libraries, and there was an "SDK" that could be installed separately that mostly contained sample codes. Starting with CUDA 5, these are combined into a single "toolkit" installer and the tookit installer (on linux, a "runfile", on windows, an exe file) will now install 3 major components:
