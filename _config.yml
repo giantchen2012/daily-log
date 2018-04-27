@@ -1,1 +1,72 @@
-theme: jekyll-theme-minimal
+# Basic
+
+#theme: jekyll-theme-minimal
+repository: giantchen2012/giantchen2012.github.io
+#port: 4001
+
+title: Chen Jianhong
+subtitle: It's just a log.
+description: Share, Share, Share
+# 头像里面的标题
+avatarTitle: JC
+# 头像里面的描述
+avatarDesc: 一杯敬过往，一杯敬明天，有趣的博客两百斤
+url: "http://giantchen2012.github.io"
+
+# Comment
+#comment:
+    # disqus: leopard
+    #duoshuo: stidio 
+
+# Social
+social:
+    #weibo: 1073227497 
+    github: giantchen2012
+    # twitter: 
+    mail: iammimagod@163.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+#baidu:
+#    id: 15c4fed56d4cae267af95752c20fa16e  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+#ga:
+#    id: UA-87578654-1
+#    host: auto  
+
+
+# ----------------- 上面的信息修改成你自己的 ---------------------------
+#
+#  _post/   文章目录
+#  _drafts/ 未发布的文章目录
+#  目录结构具体参考文档：http://jekyll.com.cn/docs/structure/
+#
+# --------------- 下面的信息可以自行选择是否修改 ------------------------
+
+
+permalink: /:year/:month/:title/
+# Format
+markdown: kramdown
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear #背景Mask
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 存档, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于, description: about, url: '/about'}      
+    
+
+# Pagination
+plugins: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
