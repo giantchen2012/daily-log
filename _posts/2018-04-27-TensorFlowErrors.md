@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorFlow 编译拍错
+title: TensorFlow 编译排错
 date: 2018-04-27
 tags: [TensorFlow,开源,AI]
 ---
