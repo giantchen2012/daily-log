@@ -48,7 +48,7 @@ opengl的绘制我也算是有个模型了，估计看完第八版的红宝书�
 
 ![](/assets/BuildYourGlobe/q4.png)
 
-面背面需要隐藏，否则就会出现如下的问题
+背面需要隐藏，否则就会出现如下的问题
 
 ![](/assets/BuildYourGlobe/q5.png)
 
